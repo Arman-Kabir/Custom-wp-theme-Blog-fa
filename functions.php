@@ -18,7 +18,7 @@ function followandrew_menus(){
     register_nav_menus($locations);
 }
 
-add_action('init','followandrew_menus')
+add_action('init','followandrew_menus');
 
 
 function followandrew_register_styles()
